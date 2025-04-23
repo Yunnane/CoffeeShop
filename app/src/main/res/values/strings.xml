@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">CoffeeShop</string>
-    <string name="choose_your_nfavoritecoffee">Choose your \nFavorite Coffee</string>
-    <string name="the_best_grain_the_finest_roast_n_the_powerfull_flavour">The best grain, the finest roast,\n the powerful flavour.</string>
+    <string name="choose_favourite">Choose your \nFavorite Coffee</string>
+    <string name="the_best_grain">The best grain, the finest roast,\n the powerful flavour.</string>
     <string name="get_started">Get Started</string>
+    <string name="search">Search…</string>
+    <string name="category">Category</string>
+    <string name="popular_coffees">Popular Coffees</string>
+    <string name="see_all">See all</string>
+    <string name="explorer">Explorer</string>
+    <string name="cart">Cart</string>
+    <string name="favourites">Favourites</string>
+    <string name="my_order">My order</string>
+    <string name="profile">Profile</string>
 </resources>
