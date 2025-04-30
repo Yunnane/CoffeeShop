@@ -12,4 +12,7 @@
     <string name="favourites">Favourites</string>
     <string name="my_order">My order</string>
     <string name="profile">Profile</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="splash_screen_picture">Splash screen picture</string>
+    <string name="settings_picture">Settings picture</string>
 </resources>

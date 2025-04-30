@@ -1,12 +1,13 @@
 package com.coffeeshop.activity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.coffeeshop.databinding.ActivitySplashScreenBinding
 
 class SplashScreen : AppCompatActivity() {
-    lateinit var binding: ActivitySplashScreenBinding
+    private lateinit var binding: ActivitySplashScreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,8 +15,8 @@ class SplashScreen : AppCompatActivity() {
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.startBtn.setOnClickListener {
-
+        binding.getStartedBtn.setOnClickListener {
+            startActivity(Intent(this@SplashScreen, DashboardActivity::class.java))
         }
     }
 }
